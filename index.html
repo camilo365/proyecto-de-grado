@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="carga">
+        <div id="imagencarga">
+            <img src="./imagenes/simulador de carga.png" alt="">
+        </div>
+    </div>
+    <div id="fondo">
+        <img id="imagen" src="./imagenes/idpets.PNG" alt="">
+        <img src="./imagenes/hueso.PNG" alt="">
+        <h5 class="text-center ">AMOR Y CUIDADO A TUS MASCOTAS</h5>
+        <div id="fondologin">
+            <div>
+                <img id="iduser" src="./imagenes/user.png" alt="">
+            </div>
+            <div>
+                <input type="text" class="form-control" id="usuario" placeholder="usuario">
+            </div>
+            <div>
+                <input type="password" class="form-control" id="password" placeholder="password">
+            </div>
+            <div>
+                <input id="btningresar" type="button" class="btn-success centrar" value="ingresar" name="ingresar">
+            </div>
+            <div>
+                <input id="btnregistrar" type="button" class="btn-danger centrar" value="Registrar Usuario " name="ingresar">
+            </div>
+            <!-- para mostrar el modal para registrarse -->
+        </div>
+        <div id="modal">
+            <div class="col d-flex justify-content-center pt-3">
+                <div>
+                    <input id="identificacion" type="text" class="centrar form-control text-center" value="identificacion" name="identificacion">
+                </div>
+                <div>
+                    <input id="correo" type="text" class="centrar form-control text-center" value="correo" name="correo">
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center pt-3">
+                <div>
+                    <input id="usuario" type="text" class="centrar form-control text-center" value="usuario" name="usuario">
+                </div>
+                <div>
+                    <input id="password" type="text" class="centrar form-control text-center" value="password" name="password">
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center pt-3">
+                <div>
+                    <input id="confirmar_password" type="text" class="centrar form-control text-center" value="confirmar_password" name="confirmar_password">
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="./control.js">
+
+
+    </script>
+    
+    
+</body>
+</html>
